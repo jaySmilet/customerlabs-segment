@@ -1,73 +1,29 @@
-# React + TypeScript + Vite
+# Demo
+1- Run on local or go to https://jaysmilet.github.io/customerlabs-segment/
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5c58377f-41bc-4f25-8273-8c66866c2caf" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2- Click on the Save Segment Button, and you will see a pop-up from the right side 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a184200b-0554-4870-859e-dee32965a44c" />
 
-Currently, two official plugins are available:
+3- Now try to enter the Input fields and add Schemas, 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a55af748-d03a-4d51-8b75-5434cf705927" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8ffef960-a5d3-4174-9175-6cf65d83f760" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cf55c304-0a31-4035-9887-f2d28fd3875d" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e88ef92e-1959-4881-8040-b07c892535f6" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b873845-7ed4-49c2-a02a-ff28536a1270" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e31d0fa0-5e36-4ccf-b1dc-50c7ff646b2d" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/aaf66ade-4bf4-4260-962f-614d4c54e705" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4- Once you enter all the correct fields and finally click on Save the Segment. It will make an API call. You will see an alert message.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+
