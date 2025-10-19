@@ -75,7 +75,7 @@ const SaveSegment = () => {
       id="offcanvasRight"
       aria-labelledby="offcanvasRightLabel"
     >
-      <div className="offcanvas-header px-4 py-6 text-white d-flex gap-4">
+      <div className="offcanvas-header bg-teal p-4 text-white d-flex gap-4">
         <i
           className="fa fa-angle-left fa-2x cursor-pointer"
           data-bs-dismiss="offcanvas"
